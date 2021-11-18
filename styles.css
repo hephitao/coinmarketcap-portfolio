@@ -1,0 +1,30 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #fff;
+}
+
+body {
+    background-color: #26324d;
+}
+
+main {
+    max-width: 250px;
+    margin: 100px auto;
+}
+
+.coin-icons {
+    width: 30px; height: 30px;
+    margin: 5px 5px 5px 0;
+}
+
+
+@keyframes opacity {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+    }
+}
