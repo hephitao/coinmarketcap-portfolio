@@ -3,7 +3,7 @@ const btcAmount = document.getElementById('btc-amount');
 const ethAmount = document.getElementById('eth-amount');
 
 const apikey = {
-    key:'ca8e00b7-b0b5-4b72-81a4-136d52b5146d'
+    key:'XXX-YOUR-API-KEY'
 }
 
 fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=' + apikey.key)
